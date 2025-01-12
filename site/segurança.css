@@ -1,0 +1,89 @@
+body {
+    color: black;
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 10px 20px 50px 20px; 
+    background-color: #f0f0f0;
+    }
+
+    .conteudo {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    background-color: #ccacdf;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    justify-content: center;
+
+}
+
+li {
+    margin: 0 15px;
+    padding-right: 15px; 
+    border-right: 1px solid #ccc;
+}
+
+li:last-child {
+    border-right: none; /* Remove the border from the last item */
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px; /* Set font size */
+    padding: 10px 15px; /* Padding around the link */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+    border-radius: 5px;
+
+}
+
+a:hover {
+    background-color: #87629c; /* Change background on hover (tomato color) */
+    color: black; /* Keep the text white on hover */
+    border-radius: 5px; /* Rounded corners on hover */
+}
+
+a.active {
+    background-color: #a66bc9; /* Green background for active link */
+    color: black;
+    border-radius: 5px;
+}
+
+
+
+
+h1 {
+    color: #87629c;
+}
+
+
+
+.imagem1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5pz purple;
+    text-align: center;
+}
+
+.imagem2 {
+    width: 600px;
+    height: 420px;
+}
+
+.center {
+    text-align: center;
+}
